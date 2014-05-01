@@ -1,0 +1,140 @@
+body {
+color: gray;
+font-family: Calibri, Tahoma;
+ height: 100%; 
+ margin: 0; 
+ padding: 0;
+ font-size: 14pt;
+}
+
+h1 {
+color: red;
+text-align: center;
+font-family: Mistral, Tahoma, Arial;
+font-size: 40pt;
+}
+
+h2 {
+text-align: center;
+color: red;
+font-family: Mistral, Tahoma, Arial;
+font-size: 32pt;
+}
+
+h3 {
+text-align: center;
+color: red;
+font-family: Mistral, Tahoma, Arial;
+font-size: 24pt;
+}
+.top-images {
+width: 150px;
+height: 150px;
+}
+
+.twitter {
+border: 3px solid gray;
+width: 100%;
+height: 800px;
+overflow: auto;
+padding: 5px;
+border-radius: 5px;
+font-size: 11pt;
+}
+
+
+.chinatown {
+width: 500px;
+height: 500px;
+}
+
+.orchids {
+width: 500px;
+height: 500px;
+}
+.uname {
+color: black;
+}
+.tweetUser {
+float: left;
+padding-right: 5px;
+}
+
+html { height: 100%; }
+
+#map-canvas { 
+height: 70%; 
+width: 100%;
+}
+
+#map-canvas a {
+color: red;
+font-size: 20pt;
+}
+
+#results {
+width: 100%;
+padding: 5px;
+height: 800px;
+overflow: auto;
+border: 3px solid gray;
+border-radius: 5px;
+}
+
+#results img {
+width: 25%;
+padding: 5px;
+}
+.Sources {
+text-align: center;
+}
+.Sources a {
+color: gray;
+}
+
+.bottom {
+padding-bottom: 100px;
+}
+@media (max-width: 1500px) {
+iframe {
+width: 100%;
+height: 360px;
+}
+}
+
+@media (max-width: 800px) {
+iframe {
+width: 100%;
+height: 360px;
+}
+}
+
+@media (max-width: 600px) {
+iframe {
+width: 100%;
+height: 315px;
+}
+
+#results {
+height: 500px;
+}
+
+.twitter {
+height: 500px;
+}
+}
+
+@media (max-width: 400px) {
+iframe {
+width: 100%;
+height: 300px;
+}
+
+#results {
+height: 300px;
+}
+
+.twitter {
+height: 300px;
+}
+}
